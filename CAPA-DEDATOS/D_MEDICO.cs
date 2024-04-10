@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAPA_DEDATOS
 {
-    internal class D_MEDICO
+    public  class D_MEDICO
     {
     }
 }

@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace CAPA_DEDATOS.MODELOS
 {
-    internal class MEDICO
+     public  class MEDICO
     {
+
+        [Key]
+        public int MEDICOId { get; set; }
+
+        [Required]
+        [StringLength(120)]
+        public string Nombres { get; set; }
+
+        [Required]
+        [StringLength(120)]
+        public string NApellidos{ get; set; }
+
+        [Required]
+        public DateTime Fechadeingreso { get; set; }
+
+        [Required]
+        public bool Estado { get; set; }
     }
 }

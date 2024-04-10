@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CAPADENEGOCIO
-{
-    internal class N_MEDICO
+{ 
+    public class N_MEDICO
     {
     }
 }

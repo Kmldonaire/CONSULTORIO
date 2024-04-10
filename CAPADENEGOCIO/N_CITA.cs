@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CAPADENEGOCIO
 {
-    internal class N_CITA
+  public  class N_CITA
     {
     }
 }
